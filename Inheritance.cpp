@@ -1,0 +1,1 @@
+// when properties and member functions of base class are inheritanced by derived class, we call this inheritance
