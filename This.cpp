@@ -17,7 +17,7 @@ class Person{
 };
 int main() {
     Person p;
-    p.setAge(25); // This will not set the age correctly
+    p.setAge(25); 
     p.displayAge(); // This will display an uninitialized value
     return 0;
 }
