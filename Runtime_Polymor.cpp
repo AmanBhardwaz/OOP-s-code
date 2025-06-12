@@ -30,4 +30,3 @@ int main(){
 
 // Example of runtime polymorphism using virtual functions
 
-//
