@@ -10,23 +10,25 @@
  //they cannot be instantiated and are meant to be inherited by other classes.
 
  // abstract classes are typically used to define an interface for derived classes
-#include <iostream>
-using namespace std;
-class Shape{
+// #include <iostream>
+// using namespace std;
+// class Shape{
     
-    virtual void draw(){
-        cout<<"virtal class"<<endl;
-    }
+//     virtual void draw(){
+//         cout<<"virtal class"<<endl;
+//     }
 
-};
-class Circle:public Shape{
-    public:
-    void draw(){
-        cout<<"drwaing a circle"<<endl;
-    }
-};
-int main(){
-    Circle c1;
-    c1.draw();
+// };
+// class Circle:public Shape{
+//     public:
+//     void draw(){
+//         cout<<"drwaing a circle"<<endl;
+//     }
+// };
+// int main(){
+//     Circle c1;
+//     c1.draw();
     
-}
+// }
+   
+
