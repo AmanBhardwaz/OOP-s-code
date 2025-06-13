@@ -29,4 +29,26 @@ int main(){
 }*/
 
 // Example of runtime polymorphism using virtual functions
+// defination of virtual function
+// virtual function is a member function in the base class that you expect to override in derived classes.
+#include <iostream>
+using namespace std;
+class Parent{
+    public:
+    virtual void getInfo() { // virtual function
+        cout << "Parent class show function called." << endl;
+    }
+};
+class Child : public Parent {
+    public:
+    void getInfo() { // overriding the virtual function
+        cout << "Child class show function called." << endl;
+    }
+};
+int main(){
+    Child c1;
+    c1.getInfo(); // Calls Child class function
+}
 
+//virtual function are dynamic in nature
+// Defined by the keyboard virtual 
